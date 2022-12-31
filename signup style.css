@@ -1,0 +1,84 @@
+/* div1 */
+.main_box{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    height: 100%;
+    width: 100%;
+    /* left: 25%;
+    margin-top: 6.25rem;
+    border: 0.1rem solid;
+    
+    border-radius: 5%; */
+    background-color:#B2C8DF;
+}
+/* div2 */
+.sub_box{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 31rem;
+    width: 32rem;
+    border: 0.2rem solid black;
+    margin: 8rem 0 8rem 0;
+    border-radius: 5%;
+}
+/* div3 */
+.main_img{
+    display: flex;
+    justify-content: center;
+    margin: 1rem;
+    flex-wrap: wrap;
+}
+/* div4  div5*/
+.input_1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+/* div6 */
+
+.checkbox, .footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 5rem 1rem 5rem;
+}
+
+.checkbox-text{
+    display: inline-block;
+}
+.input-box{
+    position: relative;
+    border-radius: 0.625rem;
+    height: 1.25rem;
+    width: 25rem;
+    padding:0.3125rem;
+}
+
+.get-button{
+    height: 1.875rem;
+    width: 8.75rem;
+    padding: 0.125rem;
+    border-radius: 1.25rem;
+    font-size: 1.25rem;
+    color:white;
+    background-color: black;
+    margin: 0.9375rem;
+
+}
+
+.get-button:hover{
+    color: #1746A2;
+}
+
+.create-account{
+    font-size: 1.2rem;
+    padding: 1rem;
+    color:black;
+}
